@@ -1,6 +1,15 @@
+body {
+  background-image: url(http://www.easyfreepatterns.com/patterns/67/pink-glitter-zebra-wallpaper-this-print-67535.gif);
+  text-align: center;
+  font-family: fantasy;
+  font-size: 120%;
+}
 #app {
   display: flex;
+  background-color: pink;
+  border-radius: 22px;
 }
+
 #app > div {
   flex-grow: 1;
 }
@@ -8,3 +17,29 @@
   margin-bottom: 20px;
 }
 
+h1 {
+  color: white;
+  opacity: 0.5;
+}
+
+h1:hover {
+  color: black;
+  background-color: pink;
+  border-radius: 22px;
+  opacity: 1;
+}
+
+button {
+  background-color: hotpink;
+  font-family: monospace;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
